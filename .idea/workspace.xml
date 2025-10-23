@@ -30,6 +30,8 @@
       <change beforePath="$PROJECT_DIR$/web_system/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/forms/base_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/forms/base_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/forms/reporter_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/forms/reporter_form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/managers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/managers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/managers/base_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/managers/base_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/managers/reporter_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/managers/reporter_manager.py" afterDir="false" />
@@ -42,9 +44,11 @@
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/person.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/publication.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/publication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/reporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/reporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/validators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/validators/__init__.py" afterDir="false" />
@@ -76,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
