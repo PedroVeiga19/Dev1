@@ -8,6 +8,12 @@
     {% endif %}
     {% endblock title %}
 {% block content %}
+    <div>
+        <a class="btn btn-outline-sucess btn-lg" role="button"
+           href="{% url 'relacionamentos:create_reporter' %}"
+           data-bs-toggle="tooltip" data-bs-placement="top"
+           title="Criar Reporter"><i class="bi bi-plus-square"></i>Criar Repórter</a>
+    </div>
     {% if reporters %}   
     <table class="table">
         <thead>
@@ -30,7 +36,8 @@
                 <td>
                     <div>
                     <a class="btn btn-outline-secondary btn-lg" role="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Detalhar" href="{% url 'relacionamentos:reporter_read' reporter.id %}"><i class="bi bi-card-list"></i></a>
-                     <a class="btn btn-outline-secondary btn-lg" role="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Detalhar" href="{% url 'relacionamentos:reporter_gerar_codigo' reporter.id %}"><i class="bi bi-card-list"></i></a>
+                     <a class="btn btn-outline-primary btn-lg" role="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar" href="{% url 'relacionamentos:reporter_update' reporter.id %}"><i class="bi bi-card-list"></i></a>
+                        <a class="btn btn-outline-warning btn-lg" role="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Gerar Código" href="{% url 'relacionamentos:reporter_gerar_codigo' reporter.id %}"><i class="bi bi-repeat"></i></a>
                     <a class="btn btn-outline-danger btn-lg" role="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Deletar" href="{% url 'relacionamentos:reporter_delete' reporter.id %}"><i class="bi bi-trash"></i></a>
                     </div>
                 </td>

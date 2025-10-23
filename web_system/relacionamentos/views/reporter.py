@@ -1,6 +1,7 @@
 import string
 
 from relacionamentos.models.reporter import Reporter
+from relacionamentos.forms.reporter_form import ReporterForm
 from django.shortcuts import get_object_or_404, render, redirect
 import random
 
@@ -44,3 +45,39 @@ def reporter_gerar_codigo(request,reporter_id):
     except Exception as e:
         print(e)
         return render(request, "reporter/list.html")
+
+
+def create(request):
+    if request.method == "POST":
+        form = ReporterForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('relacionamentos:reporter')
+
+    else:
+        form = ReporterForm()
+
+    context = {
+        'form':form,
+    }
+
+    return render(request,'reporter/create.html',context)
+
+
+def update(request,reporter_id):
+    reporter = get_object_or_404(Reporter, pk=reporter_id)
+    if request.method == "POST":
+        form = ReporterForm(request.POST,instance=reporter)
+        if form.is_valid():
+            form.save()
+            return redirect('relacionamentos:reporter')
+
+    else:
+        form = ReporterForm(instance=reporter)
+
+    context = {
+        'form': form,
+        'reporter':reporter,
+    }
+
+    return render(request, 'reporter/update.html', context)

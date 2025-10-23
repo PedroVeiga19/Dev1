@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{ % block title %}
+    <h1>Atualizar Reporter</h1>
+{ % endblock title %}
+
+{% block content %}
+    <form id="reporter" action = "{% url 'relacionamentos:reporter_update' reporter.id %}" method="post">
+        {% csrf_token %}
+        {{ form.as_div }}
+        <br>
+        <button type="submit" class="btn btn-outline-sucess btn-lg" form="reporter" value="salvar"><i class = "bi bi-floppy"></i>Salvar</button>
+        <button type="reset" name="reset" class="btn btn-outline-danger btn-lg" form="reporter" value="Reset"><i class="bi bi-arrow-clockwise">Limpar</i></button>
+        <a class = "btn btn-outline-light btn-lg" role="button" href="{% url 'relacionamentos:reporter'%}"><i class="bi bi-arrow-left"></i>Voltar</a>
+
+    </form>
+
+{% endblock content %}
