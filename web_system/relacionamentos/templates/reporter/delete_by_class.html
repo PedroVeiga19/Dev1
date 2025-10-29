@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <h1>{{reporter.name}}</h1>
+{% endblock title %}
+{% block content %}
+    <div class="content">
+        <div class="row">
+            <strong>Código:</strong>
+            <p>{{reporter.id}}</p>
+            <strong>Nome:</strong>
+            <p>{{reporter.name}}</p>
+        </div>
+    </div>
+    <strong>AÇÃO IRREVERSIVEL</strong>
+    <p>Você realmente quer fazer a deleção?</p>
+    <form id="reporter" action="{% url 'relacionamentos:reporter_delete_class' reporter.id %}" method="post" >
+        {% csrf_token %}
+        <input type="hidden" id = "reporter_id" name="reporter_id" value="{{reporter.id}}">
+        <button type="submit" class="btn btn-danger" form="reporter" value="Deletar"> <i class="bi bi-trash"></i> Deletar </button>
+
+    </form>
+    <a class='btn btn-secondary bi-arrow-left' href="{% url 'relacionamentos:reporter' %}"> Voltar</a>
+{% endblock content %}
+
