@@ -5,77 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928a1523-6262-4e1e-862e-e22ae6a36b3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Dev1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dev1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/enumarations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/enumarations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/enumarations/genero.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/enumarations/genero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/models/atividade.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/models/atividade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/models/avaliacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/models/avaliacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/models/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/models/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/models/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/models/perfil.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/models/perfil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/validators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/validators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/validators/valid.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/validators/valid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/aula/validators/validar.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/aula/validators/validar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/forms/base_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/forms/base_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/forms/reporter_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/forms/reporter_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/managers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/managers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/managers/base_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/managers/base_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/managers/reporter_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/managers/reporter_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/article.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/magazine.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/magazine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/paper.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/paper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/passport.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/passport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/person.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/publication.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/publication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/models/reporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/models/reporter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/delete_by_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/delete_by_class.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/read.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/templates/reporter/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/validators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/validators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/validators/coreia.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/validators/coreia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/validators/validar_cpf.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/validators/validar_cpf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/funcoes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/nome.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/nome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/primeira.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/primeira.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/reporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/reporter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/reporter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/reporter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/relacionamentos/views/saudacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/relacionamentos/views/saudacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/templates/minimal.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/templates/minimal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/templates/primeira.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/templates/primeira.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/templates/saudacao.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/templates/saudacao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/web_system/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/web_system/forms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/forms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/web_system/forms/contact_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/forms/contact_form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/web_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_system/web_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/web_system/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/web_system/views/estaticas.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/views/estaticas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_system/web_system/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_system/web_system/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +55,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-657d8234b839-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.74" />
       </set>
     </attachedChunks>
   </component>
@@ -134,6 +69,7 @@
       <updated>1761139845032</updated>
       <workItem from="1761139846909" duration="6000" />
       <workItem from="1762350053957" duration="6000" />
+      <workItem from="1762950827621" duration="5000" />
     </task>
     <servers />
   </component>
