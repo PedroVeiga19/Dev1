@@ -5,6 +5,7 @@ from relacionamentos.views.reporter import reporter_list, reporter_detail, repor
 from relacionamentos.views.reporter_class import ReporterView, ReporterDetailView,ReporterGerarCodigoView,ReporterDeleteView
 
 
+
 app_name = 'relacionamentos'
 
 urlpatterns = [

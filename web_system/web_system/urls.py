@@ -1,22 +1,21 @@
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
-from web_system.views.estaticas import index
-from web_system.views.contato import contact
-from .views.contato_classe import ContactView
+from web_system import views
 from django.contrib.auth import views as auth_views
-from .forms.custom_login_form import CustomLoginForm
+from web_system.forms import CustomLoginForm
+from web_system.views.profile import ProfileView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('relacionamentos/', include('relacionamentos.urls', namespace="relacionamentos")),
-    path('classe/contato/',ContactView.as_view(),name="classe_contato"),
-    path('funcao/contato/',contact,name='funcao_contato'),
-   # path('funcao/search/',views.buscar,name='funcao_buscar'),
-    path('', index, name="index"),
-    path('accounts/login/',
-         auth_views.LoginView.as_view(template_name="accounts/login.html",
-                                      authentication_form=CustomLoginForm), name="login"),
+    path('services/',include('services.urls',namespace="services")),
+    path('', views.estaticas.index, name="index"),
+    path('funcao/contato/', views.contact, name="function_contact"),
+    #path('funcao/search/', views.buscar, name="search_function"),
+    path('class/contato/', views.ContactView.as_view(), name="class_contact"),
+    path('accounts/login/', auth_views.LoginView.as_view(template_name="accounts/login.html", authentication_form=CustomLoginForm)),
     path('accounts/', include('django.contrib.auth.urls')),
-
+    path('accounts/profile/', ProfileView.as_view(), name='profile'),
 ]
